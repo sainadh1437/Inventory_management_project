@@ -1,0 +1,46 @@
+.dbody{
+    background-image:  url('../images/image12.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 92vh; 
+    margin: 0px; 
+    display: block; 
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+.dbody .text-center{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.transparent-bordered-table {
+    background-color: transparent; 
+    backdrop-filter: blur(20px);
+    border: 3px solid rgba(52, 18, 223, 0.842);
+    border-radius: 10px; 
+    overflow: hidden; 
+    height: 25vh;
+    color: black;
+    font-size: 22px;
+}
+.transparent-bordered-table thead,.transparent-bordered-table tbody, .transparent-bordered-table td {
+    border: 1px solid rgba(2, 2, 2, 0.2); 
+    text-align: center; 
+}
+.transparent-bordered-table th {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2); 
+    font: revert;
+    height: 5vh;
+    color: black;
+    font-size: 25px;
+}
+
+.low-stock {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: black;            /* Dark red text */
+}
